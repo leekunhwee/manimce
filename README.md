@@ -1,7 +1,9 @@
 # manimce
-##Examples of Scene and Study Notes based on **Manim Community Edition** :video_camera:
+## Examples of Scene and Study Notes based on **Manim Community Edition** :video_camera:
 
 The Manim Community Edition is developed by Manim Community, which is named manim on `pip`.[<sup>[1]</sup>](#refer-anchor-1)
+
+<br>
 
 ## Table of Contents:
 
@@ -14,9 +16,9 @@ The Manim Community Edition is developed by Manim Community, which is named mani
 ## Prerequisites
 Manim has a few dependencies that need to be installed before it can be used. All the softwares need to be add to the PATH of System Environment Variable.
 
-- ###[Anaconda](https://www.anaconda.com/products/individual) (Toolkit with thousands of open-source packages and libraries.)
-- ###[MikTeX](https://miktex.org/download) (A modern TeX distribution for Windows, Linux and macOS.)
-- ###[ffmpeg](https://ffmpeg.org/download.html) (The leading multimedia framework.)
+- ### [Anaconda](https://www.anaconda.com/products/individual) (Toolkit with thousands of open-source packages and libraries.)
+- ### [MikTeX](https://miktex.org/download) (A modern TeX distribution for Windows, Linux and macOS.)
+- ### [ffmpeg](https://ffmpeg.org/download.html) (The leading multimedia framework.)
 
 <br>
 
@@ -55,7 +57,8 @@ Then, run the following in Anaconda Prompt in Administrator mode after `cd` to t
 manim -p -ql scene.py SquareToCircle
 ```
 <br>
-A video will play the following animation.
+
+### A video will play the following animation:
 
 <div align = "center">
 <img src = ".\src\SquareToCircle.gif"  width=80%>
@@ -73,5 +76,5 @@ A video will play the following animation.
 
 
 <div id="refer-anchor-1"></div>
-- [1] The Manim Community Developers, [Manim – Mathematical Animation Framework (Version v0.9.0)](https://www.manim.community/). 2021.
+[1] The Manim Community Developers, [Manim – Mathematical Animation Framework (Version v0.9.0)](https://www.manim.community/). 2021.
 
