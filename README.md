@@ -12,7 +12,7 @@
 -  [导入 manim 库](#导入-manim-库)
 -  [第一个 Scene](#第一个-Scene)
 -  [定位 Mobjects 并将其移动](#定位-Mobjects-并将其移动)
--  [动画方法调用：`.animate` 语法](#动画方法调用`.animate`-语法)
+-  [方法的动画:`.animate` 语法](#方法的动画:`.animate`-语法)
 -  [排版打印数学公式](#排版打印数学公式)
 -  [一些更专业的例子](#一些更专业的例子)
 
@@ -260,7 +260,7 @@ blue_circle = Circle().set_color(BLUE).set_opacity(0.5)
 ```
 像这样，可以直接在名为 `Circle` 的圆圈上附加属性。
 
-## 动画方法调用：`.animate` 语法
+## 方法的动画:`.animate` 语法
 
 在上一个例子中，用到了 `.next_to` 方法，这是一种修改 Mobject 对象的方法。但如何去演示出这些方法对 Mobject 对象的作用过程，或者说方法 `.shift` 、 `.rotate` 或者 `.scale` 到底是如何影响一个 Mobject 对象的？那么，`.animate` 语法就是该问题的答案，让我们看看这个例子。
 
