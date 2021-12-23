@@ -1,6 +1,9 @@
 # 欢迎来到 ManimCE 教程
 
-> *相关资源:* [Documentation](https://docs.manim.community), [Discord](https://discord.gg/mMRrZQW), [Reddit](https://www.reddit.com/r/manim/)
+中文版 **Jupyter Notebook** 演示文件在本库的：First Steps with Manim.ipynb，需要将其下载下来，放到 **Jupyter Notebook** 的默认运行路径下，运行 **Jupyter Notebook**，然后在自动跳转的网页中打开。
+
+
+> *其他相关资源:* [Documentation](https://docs.manim.community), [Discord](https://discord.gg/mMRrZQW), [Reddit](https://www.reddit.com/r/manim/)
 
 ## 编程环境配置
 
@@ -141,10 +144,10 @@ class CircleToSquare(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\CircleToSquare@2021-12-23@10-04-28.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\CircleToSquare_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Circle To Square
+    </image>
+    </p>
 
 
 尽管这个例子中大部分代码看上去是不言自明是，这里仍需要一步步详细地进行说明。
@@ -208,11 +211,10 @@ class HelloCircle(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\HelloCircle@2021-12-23@10-04-45.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
-
+<p align="center"><image src="media\videos\examples\1080p60\HelloCircle_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Hello Circle
+    </image>
+    </p>
 
 显然，文字可以使用名为 `Text` 的 Mobject 对象来创建，其所处位置由下面一行代码实现：
 ```py
@@ -261,10 +263,10 @@ class CircleAnnouncement(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\CircleAnnouncement@2021-12-23@10-05-00.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\CircleAnnouncement_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Circle Announcement
+    </image>
+    </p>
 
 
 在一般通过 `announcement.next_to(blue_circle, UP, buff=0.5)` 来实现定位的地方，前置调用一个 `.animate` 方法，将其后的方法转为动画，并通过 `self.play` 方法演示出了。下面的例子展现了几种方法的作用于 Mobject 对象的过程动画：
@@ -285,10 +287,10 @@ class AnimateSyntax(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\AnimateSyntax@2021-12-23@10-05-04.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\CircleAnnouncement_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Circle Announcement
+    </image>
+    </p>
 
 
 第一个 `.play` 方法创建了一个三角形；第二个 `.play` 将该三角形往左移动一个单位；第三个 `.play` 将其向右移回去，并同时放大到原来的两倍；第四个 `.play` 将其逆时针旋转 $\pi/3$ (可以修改一些参数，并再次运行上面的代码，例如 `set_color`)。
@@ -316,10 +318,10 @@ class DifferentRotations(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\DifferentRotations@2021-12-23@10-05-08.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\DifferentRotations_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Different Rotations
+    </image>
+    </p>
 
 
 ## 排版打印数学公式
@@ -341,10 +343,10 @@ class CauchyIntegralFormula(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\CauchyIntegralFormula@2021-12-23@10-05-18.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\CauchyIntegralFormula_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Cauchy Integral Formula
+    </image>
+    </p>
 
 
 正如该例所示，`MathTex` 对象可以被赋予简单的 (数学模式) $LaTeX$ 字符串。如果想赋予“一般模式”的 $LaTex$，则使用 `Tex`。
@@ -370,10 +372,10 @@ class TransformEquation(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\TransformEquation@2021-12-23@10-05-37.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\TransformEquation_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Transform Equation
+    </image>
+    </p>
 
 
 在上面的例子中，`eq1` 和 `eq2` 有一些双花括号的位置，在通常情况下，$LaTeX$ 不会这样表达。这是一种特殊的 manim 符号，它以一种特殊的方式将生成的 Tex 对象' `eq1` 和 `eq2` 分组。
@@ -411,10 +413,10 @@ class FormulaEmphasis(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\FormulaEmphasis@2021-12-23@11-01-41.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\FormulaEmphasis_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Formula Emphasis
+    </image>
+    </p>
 
 
 
@@ -461,13 +463,11 @@ class PlotExample(Scene):
         self.play(AnimationGroup(*[Create(plot) for plot in plots], lag_ratio=0.05))
 ```
 
-                                                                                                                           )):   0%| | 0/1 
 
-
-<video src="media\jupyter\PlotExample@2021-12-23@11-02-15.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
-
+<p align="center"><image src="media\videos\examples\1080p60\PlotExample_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Plot Example
+    </image>
+    </p>
 
 
 ```python
@@ -489,10 +489,10 @@ class ErdosRenyiGraph(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\ErdosRenyiGraph@2021-12-23@11-02-46.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\ErdosRenyiGraph_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Erdos Renyi Graph
+    </image>
+    </p>
 
 
 
@@ -518,10 +518,10 @@ class FadeInSquare(Scene):
 
                                                                                                                            
 
-
-<video src="media\jupyter\CodeFromString@2021-12-23@11-03-13.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\CodeFromString_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Code From String
+    </image>
+    </p>
 
 
 
@@ -579,7 +579,8 @@ class OpeningManim(Scene):
                                                                                                                            
 
 
-<video src="media\jupyter\OpeningManim@2021-12-23@11-04-07.mp4" controls autoplay loop style="max-width: 60%;"  >
-      Your browser does not support the <code>video</code> element.
-    </video>
+<p align="center"><image src="media\videos\examples\1080p60\OpeningManim_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+      Opening Manim
+    </image>
+    </p>
 
