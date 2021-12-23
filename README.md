@@ -1,9 +1,28 @@
-# 欢迎来到 ManimCE 教程
+# 欢迎来到 ManimCE 中文教程
+
+<br>
+
+## 目录 Table of Contents:
+
+-  [编程环境配置](##编程环境配置)
+-  [创建虚拟环境](##创建虚拟环境)
+-  [安装依赖文件](#安装依赖文件)
+-  [安装 manim ](##安装 manim )
+-  [安装配置 Jupyter](#安装配置 Jupyter)
+-  [导入 manim 库](##导入 manim 库)
+-  [第一个 Scene](##第一个 Scene)
+-  [定位 Mobjects 并将其移动](##定位 Mobjects 并将其移动)
+-  [动画方法调用：`.animate` 语法](##动画方法调用：`.animate` 语法)
+-  [排版打印数学公式](##排版打印数学公式)
+-  [一些更专业的例子](##一些更专业的例子)
+
+<br>
 
 中文版 **Jupyter Notebook** 演示文件在本库的：First Steps with Manim.ipynb，需要将其下载下来，放到 **Jupyter Notebook** 的默认运行路径下，运行 **Jupyter Notebook**，然后在自动跳转的网页中打开。
 
 
-> *其他相关资源:* [Documentation](https://docs.manim.community), [Discord](https://discord.gg/mMRrZQW), [Reddit](https://www.reddit.com/r/manim/)
+> *其他相关资源:* [Documentation](https://
+docs.manim.community), [Discord](https://discord.gg/mMRrZQW), [Reddit](https://www.reddit.com/r/manim/)
 
 ## 编程环境配置
 
