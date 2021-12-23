@@ -262,7 +262,7 @@ blue_circle = Circle().set_color(BLUE).set_opacity(0.5)
 
 ## 方法的动画
 
-在上一个例子中，用到了 `.next_to` 方法，这是一种修改 Mobject 对象的方法。但如何去演示出这些方法对 Mobject 对象的作用过程，或者说方法 `.shift` 、 `.rotate` 或者 `.scale` 到底是如何影响一个 Mobject 对象的？那么，`.animate` 语法就是该问题的答案，让我们看看这个例子。
+在上一个例子中，用到了 `.next_to` 方法，这是一种修改 Mobject 对象位置的方法。但如何去演示出这些方法对 Mobject 对象的作用过程，或者说方法 `.shift` 、 `.rotate` 或者 `.scale` 到底是如何影响一个 Mobject 对象的？那么，`.animate` 语法就是该问题的答案，让我们看看这个例子。
 
 
 ```python
