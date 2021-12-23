@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/leekunhwee/Documents/GitHub/manimce/media/videos/manimce/720p30/partial_movie_files/FormulaEmphasis/1342159004_675278751_1223732272.mp4'
+file 'file:C:/Users/leekunhwee/Documents/GitHub/manimce/media/videos/manimce/720p30/partial_movie_files/FormulaEmphasis/1353618911_425422161_1715306819.mp4'
+file 'file:C:/Users/leekunhwee/Documents/GitHub/manimce/media/videos/manimce/720p30/partial_movie_files/FormulaEmphasis/1353618911_398514950_3803179132.mp4'
+file 'file:C:/Users/leekunhwee/Documents/GitHub/manimce/media/videos/manimce/720p30/partial_movie_files/FormulaEmphasis/1353618911_3466660323_3772613464.mp4'
+file 'file:C:/Users/leekunhwee/Documents/GitHub/manimce/media/videos/manimce/720p30/partial_movie_files/FormulaEmphasis/1353618911_398514950_3902091554.mp4'
