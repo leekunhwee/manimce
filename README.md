@@ -305,7 +305,7 @@ class AnimateSyntax(Scene):
 
                                                                                                                            
 
-<p align="center"><image src="media\videos\examples\1080p60\CircleAnnouncement_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
+<p align="center"><image src="media\videos\examples\1080p60\AnimateSyntax_ManimCE_v0.13.1.gif" controls autoplay loop style="max-width: 60%;"  >
       Circle Announcement
     </image>
     </p>
