@@ -21,8 +21,7 @@
 中文版 **Jupyter Notebook** 演示文件在本库的：First Steps with Manim.ipynb，需要将其下载下来，放到 **Jupyter Notebook** 的默认运行路径下，运行 **Jupyter Notebook**，然后在自动跳转的网页中打开。
 
 
-> *其他相关资源:* [Documentation](https://
-docs.manim.community), [Discord](https://discord.gg/mMRrZQW), [Reddit](https://www.reddit.com/r/manim/)
+> *其他相关资源:* [Documentation](https://docs.manim.community), [Discord](https://discord.gg/mMRrZQW), [Reddit](https://www.reddit.com/r/manim/)
 
 ## 编程环境配置
 
