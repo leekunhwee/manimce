@@ -63,7 +63,9 @@ manim Community Edition 可以使用 pip 工具直接安装，非常方便。直
 
 在激活新环境的基础上(可以看到命令行开头处的括号内显示新的环境名)，输入 `conda install jupyter notebook`，安装 `Jupyter Notebook`。
 
-为了在虚拟环境中运行 `Jupyter Notebook`，一方面需要在虚拟环境中安装 `Jupyter Notebook`，另一方面，要安装一个插件 `conda install nb_conda`，之后再打开 `Jupyter Notebook`，在 `new` 按钮下将多出不同环境的选项。**注意，关于 Jupter Notebook 的安装与配置，只有该步是在虚拟环境中进行的，下面的安装、配置均在主系统环境(base)中进行。**
+为了在虚拟环境中运行 `Jupyter Notebook`，一方面需要在虚拟环境中安装 `Jupyter Notebook`，另一方面，要安装一个插件 `conda install nb_conda`，之后再打开 `Jupyter Notebook`，在 `new` 按钮下将多出不同环境的选项。
+
+**注意，关于 Jupter Notebook 的安装与配置，只有该步是在虚拟环境中进行的，下面的安装、配置均在主系统环境(base)中进行。**
 
 ### 更改默认路径
 
