@@ -63,11 +63,11 @@ manim Community Edition 可以使用 pip 工具直接安装，非常方便。直
 
 在激活新环境的基础上(可以看到命令行开头处的括号内显示新的环境名)，输入 `conda install jupyter notebook`，安装 `Jupyter Notebook`。
 
-为了在虚拟环境中运行 `Jupyter Notebook`，一方面需要在虚拟环境中安装 `Jupyter Notebook`，另一方面，要安装一个插件 `conda install nb_conda`，之后再打开 `Jupyter Notebook`，在 `new` 按钮下将多出不同环境的选项。
+为了在虚拟环境中运行 `Jupyter Notebook`，一方面需要在虚拟环境中安装 `Jupyter Notebook`，另一方面，要安装一个插件 `conda install nb_conda`，之后再打开 `Jupyter Notebook`，在 `new` 按钮下将多出不同环境的选项。**注意，关于 Jupter Notebook 的安装与配置，只有该步是在虚拟环境中进行的，下面的安装、配置均在主系统环境(base)中进行。**
 
 ### 更改默认路径
 
-输入 `jupyter notebook --generate-config` ，可以生成一个路径配置文件，用以配置 `Jupyter` 每次打开时的默认路径。
+在 Anaconda prompt 的主系统环境（base）中，输入：`jupyter notebook --generate-config` ，可以生成一个路径配置文件，用以配置 `Jupyter` 每次打开时的默认路径。
 
 该新生成的文件路径一般在 `C:\Users\<User_name>\.jupyter\jupyter_notebook_config.py` 中。
 
@@ -80,14 +80,13 @@ manim Community Edition 可以使用 pip 工具直接安装，非常方便。直
 点击打开 [`Jupyter themes`](https://github.com/dunovank/jupyter-themes) 找到优化方法。
 由于 `Anaconda` 中不包含这个包，所以这里需要用 `pip` 进行安装。
 
-输入 `pip install jupyterthemes` 进行安装，后面可以通过 `pip install --upgrade jupyterthemes` 进行升级。
+在 Anaconda prompt 的主系统环境（base）中，输入： `pip install jupyterthemes` 进行安装，后面可以通过 `pip install --upgrade jupyterthemes` 进行升级。
 
 可参考输入配置参数：`jt -t oceans16 -f fira -fs 17 -cellw 90% -ofs 14 -dfs 14 -T` 进行优化界面配置。
 
 ### 代码自动补全
 
-`Jupyter Notebook` 代码自动补全
-先关闭 `Jupyter Notebook` ，在 `Anaconda Navigator` 中的 `Environments` 里，点击 `<virtual env name>` 的右边箭头，`Open Terminal` 打开终端，输入:
+在 Anaconda prompt 的主系统环境（base）中，输入：
 ```
 pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
 ```
